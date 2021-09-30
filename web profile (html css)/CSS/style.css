@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 0 sans-serif;
+}
+
+header {
+  background-color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 4px solid;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  padding: 15px 10px;
+
+  font-weight: bold;
+}
+.container-text {
+  color: #fff;
+  padding: 0px 10px 0px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-flex;
+  position: sticky;
+}
+
+.container-list {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.container-list ul li {
+  display: inline-block;
+  padding: 0px 30px;
+  font-family: "comic sans ms";
+}
+
+.container-list ul {
+  float: right;
+}
+
+.container-list ul li a:hover {
+  color: black;
+  text-decoration: underline;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: cyan;
+  box-shadow: black;
+}
+
+.gambar img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.gambar {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.text-tengah {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: blanchedalmond;
+  padding-bottom: 25px;
+}
+
+.main {
+  background-color: cornflowerblue;
+  padding: 30px 25px;
+}
+
+.main-text h2,
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  padding: 15px;
+}
+
+.section {
+  background-color: blanchedalmond;
+}
+
+.section-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.services-list img {
+  width: 250px;
+  height: 250px;
+  padding: 20px 90px;
+  border-radius: 50%;
+}
+
+.pict {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+.contact {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px 20px;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.contact-list a {
+  color: black;
+}
+
+.contact-list ul li {
+  display: inline-block;
+  padding: 25px 20px;
+  margin: 20px;
+}
+
+footer {
+  background-color: blue;
+  border-top: 3px solid;
+  text-align: center;
+  padding: 60px 70px;
+}
+
+.footer-text small {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
